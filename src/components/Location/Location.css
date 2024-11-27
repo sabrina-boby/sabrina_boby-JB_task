@@ -1,0 +1,30 @@
+.location {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.single-info {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 12px;
+}
+.single-info h3 {
+  width: 100px;
+  text-align: end;
+  font-size: 12px;
+}
+.single-info h4 {
+  font-size: 12px;
+}
+span {
+  color: #0077ff;
+}
+
+@media (max-width: 768px) {
+  .location {
+    flex-direction: column;
+  }
+}

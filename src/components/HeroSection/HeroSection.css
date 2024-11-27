@@ -1,0 +1,55 @@
+.hero-section {
+  text-align: center;
+  /* position: relative; */
+  /* border: 1px solid red; */
+}
+.hero-img-content{
+  position: relative; 
+}
+.hero-image {
+  width: 900px;
+  height: 400px;
+  margin: -60px auto 0 auto;
+  /* margin: 0 auto; */
+  /* background-color: red; */
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-wrap: nowrap;
+  
+}
+.hero-text h1{
+  font-family: 'Leckerli One', cursive;
+  font-size: 30px;
+}
+.hero-details-text h4{
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.hero-details-text{
+  width: 830px;
+  margin: 0 auto 60px auto;
+  /* background-color: red; */
+}
+.hero-details-text p{
+  font-size: 11px;
+  line-height: 20px;
+  margin-top: 20px;
+  text-align: start;
+}
+@media (max-width: 768px) {
+  .hero-image {
+    height: 550px;
+    object-fit: cover;
+  }
+  .hero-details-text{
+    width: 60%;
+    /* margin: 0 auto 60px auto; */
+    /* background-color: red; */
+  }
+}

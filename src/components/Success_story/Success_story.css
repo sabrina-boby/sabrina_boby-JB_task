@@ -1,0 +1,40 @@
+.Success_story {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-image: url("../../assets/bgSec04.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Success_story_text {
+  display: flex;
+  color: white;
+  gap: 40px;
+  /* background-color: red; */
+  width: 600px;
+}
+.success-text h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.success-text p {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .Success_story {
+    height: 350px;
+  }
+  .Success_story_text {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 60px;
+  }
+}
